@@ -1,0 +1,17 @@
+{
+  "name": "workshop-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate": "RECORDS=100000 node generate.js",
+    "start": "node index.js",
+    "start:dev": "PORT=3000 node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
