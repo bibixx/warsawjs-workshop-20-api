@@ -1,301 +1,81 @@
 [{
   "id": 1,
-  "name": "Qatar Airways"
+  "name": "Qatar Airways",
+  "url": "https://warsawjs-flights-api.herokuapp.com/assets/airlines/1.png"
 }, {
   "id": 2,
-  "name": "Singapore Airlines"
+  "name": "Singapore Airlines",
+  "url": "https://warsawjs-flights-api.herokuapp.com/assets/airlines/2.png"
 }, {
   "id": 3,
-  "name": "ANA All Nippon Airways"
+  "name": "Emirates",
+  "url": "https://warsawjs-flights-api.herokuapp.com/assets/airlines/3.png"
 }, {
   "id": 4,
-  "name": "Emirates"
+  "name": "Cathay Pacific",
+  "url": "https://warsawjs-flights-api.herokuapp.com/assets/airlines/4.png"
 }, {
   "id": 5,
-  "name": "Cathay Pacific"
+  "name": "EVA Air",
+  "url": "https://warsawjs-flights-api.herokuapp.com/assets/airlines/5.png"
 }, {
   "id": 6,
-  "name": "EVA Air"
+  "name": "Lufthansa",
+  "url": "https://warsawjs-flights-api.herokuapp.com/assets/airlines/6.png"
 }, {
   "id": 7,
-  "name": "Lufthansa"
+  "name": "KLM",
+  "url": "https://warsawjs-flights-api.herokuapp.com/assets/airlines/7.png"
 }, {
   "id": 8,
-  "name": "Etihad Airways"
+  "name": "Etihad Airways",
+  "url": "https://warsawjs-flights-api.herokuapp.com/assets/airlines/8.png"
 }, {
   "id": 9,
-  "name": "Hainan Airlines"
+  "name": "Hainan Airlines",
+  "url": "https://warsawjs-flights-api.herokuapp.com/assets/airlines/9.png"
 }, {
   "id": 10,
-  "name": "Garuda Indonesia"
+  "name": "Garuda Indonesia",
+  "url": "https://warsawjs-flights-api.herokuapp.com/assets/airlines/10.png"
 }, {
   "id": 11,
-  "name": "Thai Airways"
+  "name": "Thai Airways",
+  "url": "https://warsawjs-flights-api.herokuapp.com/assets/airlines/11.png"
 }, {
   "id": 12,
-  "name": "Turkish Airlines"
+  "name": "Turkish Airlines",
+  "url": "https://warsawjs-flights-api.herokuapp.com/assets/airlines/12.png"
 }, {
   "id": 13,
-  "name": "Virgin Australia"
+  "name": "Virgin Australia",
+  "url": "https://warsawjs-flights-api.herokuapp.com/assets/airlines/13.png"
 }, {
   "id": 14,
-  "name": "Swiss Int'l Air Lines"
+  "name": "Finnair",
+  "url": "https://warsawjs-flights-api.herokuapp.com/assets/airlines/14.png"
 }, {
   "id": 15,
-  "name": "Qantas Airways"
+  "name": "British Airways",
+  "url": "https://warsawjs-flights-api.herokuapp.com/assets/airlines/15.png"
 }, {
   "id": 16,
-  "name": "Japan Airlines"
+  "name": "PL LOT",
+  "url": "https://warsawjs-flights-api.herokuapp.com/assets/airlines/16.png"
 }, {
   "id": 17,
-  "name": "Austrian"
+  "name": "Wizz Air",
+  "url": "https://warsawjs-flights-api.herokuapp.com/assets/airlines/17.png"
 }, {
   "id": 18,
-  "name": "Air France"
+  "name": "Ryan Air",
+  "url": "https://warsawjs-flights-api.herokuapp.com/assets/airlines/18.png"
 }, {
   "id": 19,
-  "name": "Air New Zealand"
+  "name": "Air France",
+  "url": "https://warsawjs-flights-api.herokuapp.com/assets/airlines/19.png"
 }, {
   "id": 20,
-  "name": "Asiana Airlines"
-}, {
-  "id": 21,
-  "name": "Bangkok Airways"
-}, {
-  "id": 22,
-  "name": "KLM"
-}, {
-  "id": 23,
-  "name": "China Southern"
-}, {
-  "id": 24,
-  "name": "Hong Kong Airlines"
-}, {
-  "id": 25,
-  "name": "Finnair"
-}, {
-  "id": 26,
-  "name": "AirAsia"
-}, {
-  "id": 27,
-  "name": "Cathay Dragon"
-}, {
-  "id": 28,
-  "name": "Norwegian"
-}, {
-  "id": 29,
-  "name": "Air Canada"
-}, {
-  "id": 30,
-  "name": "Aeroflot"
-}, {
-  "id": 31,
-  "name": "Malaysia Airlines"
-}, {
-  "id": 32,
-  "name": "Delta Air Lines"
-}, {
-  "id": 33,
-  "name": "Virgin Atlantic"
-}, {
-  "id": 34,
-  "name": "Korean Air"
-}, {
-  "id": 35,
-  "name": "China Airlines"
-}, {
-  "id": 36,
-  "name": "Alaska Airlines"
-}, {
-  "id": 37,
-  "name": "Aegean Airlines"
-}, {
-  "id": 38,
-  "name": "Aer Lingus"
-}, {
-  "id": 39,
-  "name": "jetBlue Airways"
-}, {
-  "id": 40,
-  "name": "British Airways"
-}, {
-  "id": 41,
-  "name": "easyJet"
-}, {
-  "id": 42,
-  "name": "Iberia"
-}, {
-  "id": 43,
-  "name": "Virgin America"
-}, {
-  "id": 44,
-  "name": "Jetstar Airways"
-}, {
-  "id": 45,
-  "name": "AirAsiaX"
-}, {
-  "id": 46,
-  "name": "Air Astana"
-}, {
-  "id": 47,
-  "name": "Vietnam Airlines"
-}, {
-  "id": 48,
-  "name": "Ethiopian Airlines"
-}, {
-  "id": 49,
-  "name": "South African Airways"
-}, {
-  "id": 50,
-  "name": "Avianca"
-}, {
-  "id": 51,
-  "name": "Saudi Arabian Airlines"
-}, {
-  "id": 52,
-  "name": "Azul Brazilian"
-}, {
-  "id": 53,
-  "name": "Oman Air"
-}, {
-  "id": 54,
-  "name": "Southwest Airlines"
-}, {
-  "id": 55,
-  "name": "Porter Airlines"
-}, {
-  "id": 56,
-  "name": "SilkAir"
-}, {
-  "id": 57,
-  "name": "Indigo"
-}, {
-  "id": 58,
-  "name": "WestJet"
-}, {
-  "id": 59,
-  "name": "LATAM"
-}, {
-  "id": 60,
-  "name": "Scoot"
-}, {
-  "id": 61,
-  "name": "Jetstar Asia"
-}, {
-  "id": 62,
-  "name": "TAP Air Portugal"
-}, {
-  "id": 63,
-  "name": "Alitalia"
-}, {
-  "id": 64,
-  "name": "Eurowings"
-}, {
-  "id": 65,
-  "name": "SAS Scandinavian"
-}, {
-  "id": 66,
-  "name": "Thomson Airways"
-}, {
-  "id": 67,
-  "name": "Philippine Airlines"
-}, {
-  "id": 68,
-  "name": "Brussels Airlines"
-}, {
-  "id": 69,
-  "name": "Copa Airlines"
-}, {
-  "id": 70,
-  "name": "Air Transat"
-}, {
-  "id": 71,
-  "name": "Azerbaijan Airlines"
-}, {
-  "id": 72,
-  "name": "China Eastern"
-}, {
-  "id": 73,
-  "name": "Jet Airways"
-}, {
-  "id": 74,
-  "name": "American Airlines"
-}, {
-  "id": 75,
-  "name": "Fiji Airways"
-}, {
-  "id": 76,
-  "name": "Ryanair"
-}, {
-  "id": 77,
-  "name": "Air Mauritius"
-}, {
-  "id": 78,
-  "name": "United Airlines"
-}, {
-  "id": 79,
-  "name": "LOT Polish"
-}, {
-  "id": 80,
-  "name": "Air Seychelles"
-}, {
-  "id": 81,
-  "name": "SriLankan Airlines"
-}, {
-  "id": 82,
-  "name": "Icelandair"
-}, {
-  "id": 83,
-  "name": "Juneyao Airlines"
-}, {
-  "id": 84,
-  "name": "Gulf Air"
-}, {
-  "id": 85,
-  "name": "Air Berlin"
-}, {
-  "id": 86,
-  "name": "Hawaiian Airlines"
-}, {
-  "id": 87,
-  "name": "American Eagle Airlines"
-}, {
-  "id": 88,
-  "name": "Vueling"
-}, {
-  "id": 89,
-  "name": "Air Nostrum"
-}, {
-  "id": 90,
-  "name": "Tigerair"
-}, {
-  "id": 91,
-  "name": "Kenya Airways"
-}, {
-  "id": 92,
-  "name": "Royal Brunei Airlines"
-}, {
-  "id": 93,
-  "name": "Air Malta"
-}, {
-  "id": 94,
-  "name": "Xiamen Airlines"
-}, {
-  "id": 95,
-  "name": "S7 Airlines"
-}, {
-  "id": 96,
-  "name": "Peach"
-}, {
-  "id": 97,
-  "name": "Royal Air Maroc"
-}, {
-  "id": 98,
-  "name": "Air China"
-}, {
-  "id": 99,
-  "name": "Air Canada rouge"
-}, {
-  "id": 100,
-  "name": "Aeromexico"
+  "name": "UIA",
+  "url": "https://warsawjs-flights-api.herokuapp.com/assets/airlines/20.png"
 }]

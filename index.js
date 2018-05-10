@@ -42,4 +42,6 @@ app.get('/airlines/:id', (req, res) => {
   res.json(airlines.find(a => a.id === +req.params.id))
 });
 
+app.use("/assets", express.static(path.join(__dirname + '/public')))
+
 app.listen(process.env.PORT, () => console.log(`API listening on port ${process.env.PORT}!`))
