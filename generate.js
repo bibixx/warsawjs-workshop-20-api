@@ -4,7 +4,7 @@ const airports = require("./airports.json");
 const airlines = require("./airlines.json");
 
 /* ------------------ */
-const N = process.env.RECORDS;
+const N = +process.env.RECORDS;
 
 const PRICE_MIN = 500;
 const PRICE_MAX = 1000;
