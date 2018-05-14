@@ -4,7 +4,10 @@ const flights = require("./flights.json");
 
 const path = require("path");
 const express = require('express');
+var cors = require('cors');
 const app = express();
+
+app.use(cors());
 
 app.get('/', (req, res) => {
   res.sendFile( path.join(__dirname + '/index.html') );
