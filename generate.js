@@ -81,7 +81,7 @@ const generate = (outboundDate, inboundDate, outboundAirport, inboundAirport) =>
     const flights = 
       Array(n).fill({})
       .map((f, i) => {
-        const id = i;
+        const id = rand(0, 100000) + i;
         const price = rand(PRICE_MIN, PRICE_MAX);
         
         // const outboundDate = new Date(new Date(...START_DATE).getTime() + rand(1, 7) * 24 * 60 * 60 * 1000);
