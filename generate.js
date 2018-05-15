@@ -11,7 +11,7 @@ const PRICE_MAX = 1000;
 
 const DATE_MAX = 1000;
 
-const MAX_TRANSFERS = 2;
+const MAX_TRANSFERS = 3;
 
 const START_DATE = [2018, 4, 10]
 const MAX_DAYS_IN_FUTURE = 7;
