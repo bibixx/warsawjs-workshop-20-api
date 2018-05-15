@@ -17,7 +17,6 @@ const START_DATE = [2018, 4, 10]
 const MAX_DAYS_IN_FUTURE = 7;
 /* ------------------ */
 
-
 const to2dig = i => String(i).padStart(2, "0");
 const formatDate = d => `${d.getFullYear()}-${to2dig(d.getMonth() + 1)}-${to2dig(d.getDate())}`;
 const rand = (min = 1, max, floor = true) => {
@@ -71,32 +70,39 @@ const createPath = (airportFrom, airportTo) => {
   return to;
 }
 
+const generate = (outboundDate, inboundDate, outboundAirport, inboundAirport) => {
+  const n = rand(1, 10);
 
-const flights = 
-  Array(N).fill({})
-  .map((f, i) => {
-    const id = i;
-    const price = rand(PRICE_MIN, PRICE_MAX);
-    
-    const outboundDate = new Date(new Date(...START_DATE).getTime() + rand(1, 7) * 24 * 60 * 60 * 1000);
-    const inboundDate = new Date(outboundDate.getTime() + rand(1, MAX_DAYS_IN_FUTURE) * 24 * 60 * 60 * 1000);
+  const flights = 
+    Array(n).fill({})
+    .map((f, i) => {
+      const id = i;
+      const price = rand(PRICE_MIN, PRICE_MAX);
+      
+      // const outboundDate = new Date(new Date(...START_DATE).getTime() + rand(1, 7) * 24 * 60 * 60 * 1000);
+      // const inboundDate = new Date(outboundDate.getTime() + rand(1, MAX_DAYS_IN_FUTURE) * 24 * 60 * 60 * 1000);
 
-    const outboundAirport = getRandomWithout(airports).code;
-    const inboundAirport = getRandomWithout(airports, outboundAirport).code;
+      // const outboundAirport = getRandomWithout(airports).code;
+      // const inboundAirport = getRandomWithout(airports, outboundAirport).code;
 
-    const outboundPath = createPath(outboundAirport, inboundAirport);
-    const inboundPath = createPath(inboundAirport, outboundAirport);
+      const outboundPath = createPath(outboundAirport, inboundAirport);
+      const inboundPath = createPath(inboundAirport, outboundAirport);
 
-    return {
-      id,
-      price,
-      outboundPath,
-      inboundPath,
-      outboundDate: formatDate(outboundDate),
-      inboundDate: formatDate(inboundDate),
-      outboundAirport,
-      inboundAirport
-    }
-  })
+      return {
+        id,
+        price,
+        outboundPath,
+        inboundPath,
+        outboundDate,
+        inboundDate,
+        outboundAirport,
+        inboundAirport
+      }
+    })
 
-fs.writeFileSync("./flights.json", JSON.stringify(flights, null, 2))
+  // fs.writeFileSync("./flights.json", JSON.stringify(flights, null, 2))
+
+  return flights;
+}
+
+module.exports = generate;

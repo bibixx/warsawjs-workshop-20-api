@@ -1,6 +1,7 @@
 const airports = require("./airports.json");
 const airlines = require("./airlines.json");
-const flights = require("./flights.json");
+// const flights = require("./flights.json");
+const generate = require("./generate.js");
 
 const path = require("path");
 const express = require('express');
@@ -20,12 +21,15 @@ app.get('/ping', (req, res) => {
 app.get('/flights/:outboundDate/:inboundDate/:outboundAirport/:inboundAirport', (req, res) => {
   const {outboundDate, inboundDate, outboundAirport, inboundAirport} = req.params;
 
-  const f = flights.filter(f =>
-    f.outboundDate === outboundDate &&
-    f.inboundDate === inboundDate &&
-    f.outboundAirport === outboundAirport &&
-    f.inboundAirport === inboundAirport
-  );
+  // const f = flights.filter(f =>
+  //   f.outboundDate === outboundDate &&
+  //   f.inboundDate === inboundDate &&
+  //   f.outboundAirport === outboundAirport &&
+  //   f.inboundAirport === inboundAirport
+  // );
+
+  const f = generate( outboundDate, inboundDate, outboundAirport, inboundAirport );
+
   res.json(f)
 });
 
