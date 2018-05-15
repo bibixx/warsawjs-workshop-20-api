@@ -1,106 +1,106 @@
 [{
   "id": 1,
   "code": "ATL",
-  "country": "US",
-  "city": "Atlanta Ga"
+  "country": "USA",
+  "city": "Atlanta, GA"
 }, {
   "id": 2,
   "code": "PEK",
-  "country": "CN",
+  "country": "China",
   "city": "Beijing"
 }, {
   "id": 3,
   "code": "LHR",
-  "country": "GB",
+  "country": "Great Britain",
   "city": "London"
 }, {
   "id": 4,
   "code": "ORD",
-  "country": "US",
-  "city": "Chicago Il"
+  "country": "USA",
+  "city": "Chicago, IL"
 }, {
   "id": 5,
   "code": "HND",
-  "country": "JP",
+  "country": "Japan",
   "city": "Tokyo"
 }, {
   "id": 6,
   "code": "LAX",
-  "country": "US",
-  "city": "Los Angeles Ca"
+  "country": "USA",
+  "city": "Los Angeles, CA"
 }, {
   "id": 7,
   "code": "CDG",
-  "country": "FR",
+  "country": "France",
   "city": "Paris"
 }, {
   "id": 8,
   "code": "DFW",
-  "country": "US",
-  "city": "Dallas/fort Worth Tx"
+  "country": "USA",
+  "city": "Dallas/Fort Worth, TX"
 }, {
   "id": 9,
   "code": "FRA",
-  "country": "DE",
+  "country": "Germany",
   "city": "Frankfurt"
 }, {
   "id": 10,
   "code": "HKG",
-  "country": "HK",
+  "country": "Hong Kong",
   "city": "Hong Kong"
 }, {
   "id": 11,
   "code": "DEN",
-  "country": "US",
-  "city": "Denver Co"
+  "country": "USA",
+  "city": "Denver, CO"
 }, {
   "id": 12,
   "code": "DXB",
-  "country": "AE",
+  "country": "Arab Emirates",
   "city": "Dubai"
 }, {
   "id": 13,
   "code": "CGK",
-  "country": "ID",
+  "country": "India",
   "city": "Jakarta"
 }, {
   "id": 14,
   "code": "AMS",
-  "country": "NL",
+  "country": "Netherlands",
   "city": "Amsterdam"
 }, {
   "id": 15,
   "code": "MAD",
-  "country": "ES",
+  "country": "Spain",
   "city": "Madrid"
 }, {
   "id": 16,
   "code": "BKK",
-  "country": "TH",
+  "country": "Thailand",
   "city": "Bangkok"
 }, {
   "id": 17,
   "code": "JFK",
-  "country": "US",
-  "city": "New York Ny"
+  "country": "USA",
+  "city": "New York, NY"
 }, {
   "id": 18,
   "code": "SIN",
-  "country": "SG",
+  "country": "Singapore",
   "city": "Singapore"
 }, {
   "id": 19,
   "code": "CAN",
-  "country": "CN",
+  "country": "China",
   "city": "Guangzhou"
 }, {
   "id": 20,
   "code": "LAS",
-  "country": "US",
-  "city": "Las Vegas Nv"
+  "country": "USA",
+  "city": "Las Vegas, NV"
 }, {
   "id": 21,
   "code": "WAW",
-  "country": "PL",
+  "country": "Poland",
   "city": "Warsaw"
 }]
